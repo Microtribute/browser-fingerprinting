@@ -1,0 +1,13 @@
+{
+    "name": "me/fingerprint",
+    "authors": [
+        {
+            "name": "Microtribute",
+            "email": "microtribute@github.io"
+        }
+    ],
+    "require": {
+        "symfony/uid": "^5.1",
+        "symfony/string": "^5.1"
+    }
+}

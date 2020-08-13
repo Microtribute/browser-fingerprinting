@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Disable Cache -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!-- End Disable Cache -->
+
+        <!-- <script src="RetinaScanner.js"></script> -->
+        <script src="Sha3.js"></script>
+        <script src="Microbase58.js"></script>
+    </head> 
+    <body>
+        <script>
+            async function main() {
+                if (navigator.mediaDevices && navigator.mediaDevices.enumerateDevices) {
+                    try {
+                        console.log(await navigator.mediaDevices.enumerateDevices());
+                    } catch (e) {}
+                } else {
+                    return null;
+                }
+            }
+
+            main();
+        </script>
+        <pre id="console"></pre>
+        <script type="text/plain">
+            function log(data) {
+                document.getElementById('console').innerText = JSON.stringify(data, null, 2);
+            }
+
+            const code = Sha3.hash512('', { outFormat: 'rwa' });
+
+            console.log(Microbase58.encode(code));
+        </script>
+    </body>
+</html>
