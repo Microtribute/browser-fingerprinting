@@ -1,0 +1,126 @@
+// Fetch visit history of myself
+https://f.fingerprintjs.com/visitors/DH5OJIh979XsYx3CQweV?token=Mvd6yiC30AsocC2G8fsY&limit=20
+
+
+// This is for Bean
+https://f.fingerprintjs.com/visitors/0Iw5abcdYlSWVuUmFvnA?token=Mvd6yiC30AsocC2G8fsY&limit=20
+
+{
+    // Request ID -- generated randomly
+    "rid": "7GYG30WxAwEeebPRabT1",
+
+    // Hardcoded
+    "cv": "2.7.4",
+
+    // this.config.client
+    "c": "1IZEt20622",
+
+    // location.href
+    "url": "https://random.works/Fingerprint/test.html",
+
+    "d": 136,
+
+    // visitor ID
+    "vid": "DH5OJIh979XsYx3CQweV",
+
+    // e.localStorage ? 1 : 0
+    "ls": 1
+    
+    // this.rawIPResolution,
+    "i": 2,
+    
+
+    "j": "NcqVzswhzTcBjzTOocNIIiFewFwioMkZrVM37kRxzdMwZSpt0govTXidAZwhiDdyMPhJhVLE611XDmb0tHVx6RsyTxptayAPGi2DhcPePi3kxmqZNTQ8e2/zOoXQ982s5BzQUiJbtt9/nWrYgLA=",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en",
+            "ko"
+        ]
+    ],
+    "k3": 24,
+    "k4": 8,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3768,
+        2133
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Linux x86_64",
+    "k16": [
+        {
+            "name": "Chrome PDF Plugin",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Chrome PDF Viewer",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Native Client",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/x-nacl",
+                    "suffixes": ""
+                },
+                {
+                    "type": "application/x-pnacl",
+                    "suffixes": ""
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "4e152ec81d424abbc0ac4762947349ce"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Calibri",
+        "PMingLiU"
+    ],
+    "k21": 124.04344890356151,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}
