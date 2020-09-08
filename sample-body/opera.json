@@ -1,0 +1,116 @@
+{
+    "rid": "KJZMkoCBvZeQ5FF6dfV5",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 59,
+    "vid": "Vj9jPdYs90hXuFP2qLo9",
+    "ls": 1,
+    "i": 2,
+    "j": "SWl+oyjr6dnqT2TQS/J1Jh6/0Ilfq5S7kZPecv60TqPocpZFt4z2DwQobBj3bdDk3EsWmIAZ4a/MJKzPxGfX0ygUXf6qsdABj9ZA2w3x6FRf3ojGFBdQm9sRlBO/9GOSMDRpleqFag7QotLfBVE=",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en"
+        ]
+    ],
+    "k3": 24,
+    "k4": 8,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3840,
+        2160
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Linux x86_64",
+    "k16": [
+        {
+            "name": "Chromium PDF Plugin",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Chromium PDF Viewer",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "News feed handler",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/atom+xml",
+                    "suffixes": ""
+                },
+                {
+                    "type": "application/rss+xml",
+                    "suffixes": "rss"
+                }
+            ]
+        },
+        {
+            "name": "Shockwave Flash",
+            "description": "Shockwave Flash 32.0 r0",
+            "mimeTypes": [
+                {
+                    "type": "application/x-shockwave-flash",
+                    "suffixes": "swf"
+                },
+                {
+                    "type": "application/futuresplash",
+                    "suffixes": "spl"
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "a6a4318e6f994d4604dda84e114a4f43"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Calibri",
+        "PMingLiU"
+    ],
+    "k21": 124.04344890356151,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}
