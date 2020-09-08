@@ -1,1 +1,108 @@
-{"rid":"d9Y4inHB3U6PsQ7GXgvo","cv":"2.7.5","c":"1IZEt20622","url":"https://fingerprintjs.com/demo","d":46,"vid":"0Iw5abcdYlSWVuUmFvnA","ls":1,"i":2,"j":"TIYUAMIbggspjO30Pj26IpnsG4WeYX8qVf8YGd7MUTPl3yCEwuGJ3gf5+kvTmSPfrBpBclIG5FIh1DOt9GeoBhJ3Xr+sb1CWyfZSQQg7OWNOa49Nzcgjs+Rg9ItlV9s09kJ5yqme6WyeKvuXDiI=","cbd":1,"k2":[["en-US"],["en-US","en","fr"]],"k3":24,"k4":8,"k5":[1920,1080],"k6":[1920,1040],"k7":8,"k8":-180,"k9":"Asia/Jerusalem","k10":1,"k11":1,"k12":1,"k13":1,"k15":"Win32","k16":[{"name":"Chrome PDF Plugin","description":"Portable Document Format","mimeTypes":[{"type":"application/x-google-chrome-pdf","suffixes":"pdf"}]},{"name":"Chrome PDF Viewer","description":"","mimeTypes":[{"type":"application/pdf","suffixes":"pdf"}]},{"name":"Native Client","description":"","mimeTypes":[{"type":"application/x-nacl","suffixes":""},{"type":"application/x-pnacl","suffixes":""}]}],"k17":{"winding":true,"data":"0ebb2b03e4a9c249944978f0e68dd7ad"},"k18":1,"k19":{"maxTouchPoints":0,"touchEvent":false,"touchStart":false},"k20":["Batang","Calibri","Franklin Gothic","MS UI Gothic","Marlett","Segoe UI Light","SimHei"],"k21":124.04347527516074,"k22":1,"k23":"20030107","k24":33,"k25":0,"k26":0,"k27":"Google Inc.","k28":1,"k29":0,"k30":0,"k31":0,"k32":1,"k33":0}
+{
+    "rid": "d9Y4inHB3U6PsQ7GXgvo",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 46,
+    "vid": "0Iw5abcdYlSWVuUmFvnA",
+    "ls": 1,
+    "i": 2,
+    "j": "TIYUAMIbggspjO30Pj26IpnsG4WeYX8qVf8YGd7MUTPl3yCEwuGJ3gf5+kvTmSPfrBpBclIG5FIh1DOt9GeoBhJ3Xr+sb1CWyfZSQQg7OWNOa49Nzcgjs+Rg9ItlV9s09kJ5yqme6WyeKvuXDiI=",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en",
+            "fr"
+        ]
+    ],
+    "k3": 24,
+    "k4": 8,
+    "k5": [
+        1920,
+        1080
+    ],
+    "k6": [
+        1920,
+        1040
+    ],
+    "k7": 8,
+    "k8": -180,
+    "k9": "Asia/Jerusalem",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Win32",
+    "k16": [
+        {
+            "name": "Chrome PDF Plugin",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Chrome PDF Viewer",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Native Client",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/x-nacl",
+                    "suffixes": ""
+                },
+                {
+                    "type": "application/x-pnacl",
+                    "suffixes": ""
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "0ebb2b03e4a9c249944978f0e68dd7ad"
+    },
+    "k18": 1,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Batang",
+        "Calibri",
+        "Franklin Gothic",
+        "MS UI Gothic",
+        "Marlett",
+        "Segoe UI Light",
+        "SimHei"
+    ],
+    "k21": 124.04347527516074,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}
