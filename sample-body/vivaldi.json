@@ -1,0 +1,88 @@
+{
+    "rid": "lWTWT9WSvWWUH963seVo",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 36,
+    "vid": "lAb5ffQtOaFl32xzJbeg",
+    "ls": 1,
+    "i": 2,
+    "j": "6Etwvv9hM0xmh5gTCHAyPzkPw3WQ1P6zOy0Mzrq5jI9pYn1cpl/Kn4E5hPGX9oeKFYQz0uGw5yqd+oRUeS10CvlCEjLzOIii061o9ZN1Rucac7QY2lelH+KClI+4jurokCtrI4D/8r4O7i1gjKTl",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en"
+        ]
+    ],
+    "k3": 24,
+    "k4": 8,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3840,
+        2160
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Linux x86_64",
+    "k16": [
+        {
+            "name": "Chromium PDF Plugin",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Chromium PDF Viewer",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "1a41d156505f0cb045b1d3c13422e98d"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Calibri",
+        "PMingLiU"
+    ],
+    "k21": 124.04347730590962,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}

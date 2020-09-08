@@ -1,0 +1,103 @@
+{
+    "rid": "WoT6423v3Tk9edcBpnz8",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 36,
+    "vid": "DH5OJIh979XsYx3CQweV",
+    "ls": 1,
+    "i": 2,
+    "j": "QXOvUUT24YUUqWMeBtPFGVG3vI90xb1I6DGyQbKH2Wg5/eUfdqj196eRdqcT1rppT6dsCVoh7iy4VvbPQPfG0nXeldRu+44l/QyhKNBnbOY0TTlpRQt9uUjNJD9JSg2pXgT/3UfIyouPO4aB6hRB",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en",
+            "ko"
+        ]
+    ],
+    "k3": 24,
+    "k4": 8,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3840,
+        2160
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Linux x86_64",
+    "k16": [
+        {
+            "name": "Chrome PDF Plugin",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Chrome PDF Viewer",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Native Client",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/x-nacl",
+                    "suffixes": ""
+                },
+                {
+                    "type": "application/x-pnacl",
+                    "suffixes": ""
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "1a41d156505f0cb045b1d3c13422e98d"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Calibri",
+        "PMingLiU"
+    ],
+    "k21": 124.04347730590962,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}

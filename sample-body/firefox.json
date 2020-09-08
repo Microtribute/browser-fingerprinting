@@ -1,0 +1,71 @@
+{
+    "rid": "DeFwLf7S1qfwpFkqH7MY",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 34,
+    "ls": 1,
+    "i": 2,
+    "j": "6lMkUIlPAKHej37MGa63diCbQ51cuoZw1u3LGPkE79918NVaiYoBpugbZm6Ob27x/dAgXyJL6FuIvejYu7cL6XCTxTj5MEwxILg62i/d78DoC+RIh1TGt9OKvdL1XLKZZWg7MJnb61KwQfcsBPc=",
+    "cbd": 1,
+    "k1": "Linux x86_64",
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en"
+        ]
+    ],
+    "k3": 24,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3840,
+        2160
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 0,
+    "k15": "Linux x86_64",
+    "k16": [],
+    "k17": {
+        "winding": true,
+        "data": "f753a7ca20c2dfd7402e6b23387ba584"
+    },
+    "k18": 1,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Batang",
+        "Bitstream Vera Sans Mono",
+        "Calibri",
+        "MS Mincho",
+        "MS UI Gothic",
+        "Meiryo UI",
+        "PMingLiU"
+    ],
+    "k21": 35.73833402246237,
+    "k22": 1,
+    "k23": "20100101",
+    "k24": 37,
+    "k25": 0,
+    "k26": 1,
+    "k27": "",
+    "k28": 0,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}

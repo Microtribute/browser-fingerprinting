@@ -1,0 +1,117 @@
+{
+    "rid": "osic5jPSExBQ9GX2UxEp",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 34,
+    "vid": "Jvb3T3wKKh3lPXfUJsmp",
+    "ls": 1,
+    "i": 2,
+    "j": "j2fWThSWxTGaKEBby8vIfi4+ePvWnCmVyGKPrfhpRuaocrsvUJKVnjlCnh3K8H4XwMckKHiVZbPyOVy3MRvOrMzJIacfIrfoQs/KifpgZDfOgooyz28f6vQFXuy2HeQV23cR6PtJ8oKGSDmKz0c=",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en"
+        ]
+    ],
+    "k3": 24,
+    "k4": 8,
+    "k5": [
+        1920,
+        1080
+    ],
+    "k6": [
+        1920,
+        1040
+    ],
+    "k7": 8,
+    "k8": -480,
+    "k9": "Asia/Ulaanbaatar",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Win32",
+    "k16": [
+        {
+            "name": "Microsoft Edge PDF Plugin",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Edge PDF Viewer",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "Native Client",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/x-nacl",
+                    "suffixes": ""
+                },
+                {
+                    "type": "application/x-pnacl",
+                    "suffixes": ""
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "0ebb2b03e4a9c249944978f0e68dd7ad"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Agency FB",
+        "Calibri",
+        "Century",
+        "Century Gothic",
+        "Franklin Gothic",
+        "Haettenschweiler",
+        "Leelawadee",
+        "Lucida Bright",
+        "Lucida Sans",
+        "MS Outlook",
+        "MS Reference Specialty",
+        "MS UI Gothic",
+        "Marlett",
+        "Microsoft Uighur",
+        "Monotype Corsiva",
+        "Pristina",
+        "Segoe UI Light"
+    ],
+    "k21": 124.04347527516074,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 0
+}
