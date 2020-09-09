@@ -5,7 +5,13 @@
 - DuckDuckGo has a seemlingly awkwardly oddly reliable way to detect the browser. - *SUPER RELIABLE* -  Partnered with several browser makers - See special notes.
 
 ## User Agent Strings
-It is important to know that browsers spit out different user agent strings when sending out HTTP requests versus when using `navigator.userAgent`. Relying on `navigator.userAgent` must be used IF you have no other choice. (Maybe combining `navigator.appVersion` could be useful) As a rule of thumbs, the browser name must be detected on the server side - Compare the following user agent strings. For each browser the first string is obtained by using `navigator.userAgent` API, whereas the second string is obtaind on the server side. The last line is obtained on DuckDuckGo.
+There are 3 ways of obtaining the user agent string of a web browser.
+
+- Using `navigator.userAgent` JavaScript API
+- Inspecing the `User-Agent` header on the server side (Not reliable as it is no longer a forbidden header name according the [footnote](https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name), thus, subject to manipulation by user)
+- Using a third-party service like DuckDuckGo
+
+> Depending on what browser you're using these 3 methods may produce 3 different values.
 
 ### Brave Desktop
 - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36`
