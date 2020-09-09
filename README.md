@@ -82,6 +82,7 @@ On normal web pages:
 We can use the DuckDuckGo Answer API to identify the correct user agent string.
 
 **Request URL**:`https://api.duckduckgo.com/?q=whats+my+user+agent&format=json`
+
 **Response Example:**
 ```json
 {
