@@ -5,6 +5,7 @@
 ### General Notes
 - It does not seems to be a good idea to rely on the user agent as it is subject to frequent changes.
 - DuckDuckGo has a seemlingly awkwardly oddly reliable way to detect the browser. - *SUPER RELIABLE*
+> Reportedly, Duckduckgo partnered with Brave and Vivaldi. As a result, these browsers whitelist https://duckduckgo.com and expose their exact app name (Brave and Vivaldi) when the duckduckgo website is open. Looking at [the source code of the Brave browser](https://github.com/brave/brave-core), Netflix (netflix.com) is also whitelisted.
 
 #### User Agent Strings
 It is important to know that browsers spit out different user agent strings when sending out HTTP requests versus when using `navigator.userAgent`. Relying on `navigator.userAgent` must be used IF you have no other choice. (Maybe combining `navigator.appVersion` could be useful) As a rule of thumbs, the browser name must be detected on the server side - Compare the following user agent strings. For each browser the first string is obtained by using `navigator.userAgent` API, whereas the second string is obtaind on the server side. The last line is obtained on DuckDuckGo.
