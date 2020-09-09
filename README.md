@@ -106,7 +106,7 @@ bool IsUAWhitelisted(const GURL& gurl) {
 ```
 
 ## Special Notes for Vivaldi
-The following domains are whitelisted by Vivaldi (Copied from the source code downloaded from the official website)
+The following domains are whitelisted by Vivaldi. [Offical Vivaldi souce code download](https://vivaldi.com/source/)
 ```cc
 // Location: vivaldi-source/base/vivaldi_user_agent_white_list.inc
 
