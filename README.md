@@ -179,6 +179,10 @@ We can use the DuckDuckGo Answer API to identify the correct user agent string.
 }
 ```
 
+## Conclusion
+Fingerprinting is NOT going to be a reliable way to identify users. Fingerprinting does not work on Brave and may produce exactly the same fingerprint ---- Maybe a joke otherwise... Should be considered as a last resort due to its accuracy...
+Third-party cookies are way more reliabe if we do not count in privacy-concerned browsers including Brave and Tor that block third-party cookies by default. (The DuckDuckGo browser does not seem to block third-party cookies by default.)
+
 
 ## Links
 - [FingerprintJS Pro Demo](https://www.fingerprintjs.com/demo)
