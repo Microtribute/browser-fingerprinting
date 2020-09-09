@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- Disable Cache -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head> 
+    <body>
+        <!-- Must be renamed properly to hide it from ad blockers -->
+        <script src="app.js"></script>
+        <script>
+            function mapp(components) {
+                const k = {};
+
+                for (const {key, value} of components) {
+                    k[key] = value;
+                }
+
+                console.log(JSON.stringify(k));
+            }
+
+            if (window.requestIdleCallback) {
+                requestIdleCallback(function () {
+                    Fingerprint2.get(function (components) {
+                        mapp(components);
+                    })
+                })
+            } else {
+                setTimeout(function () {
+                    Fingerprint2.get(function (components) {
+                        mapp(components);
+                    })  
+                }, 500)
+            }
+        </script>
+    </body>
+</html>

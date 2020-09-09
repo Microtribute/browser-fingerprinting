@@ -1,0 +1,107 @@
+{
+    "rid": "bWHMthcSKPTn6CKzpOa2",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 44,
+    "vid": "9Y1ETICev5W93wYlMdfc",
+    "ls": 1,
+    "i": 2,
+    "j": "THYMCB76SKDJs5tkt2vKtvQTKjeMWqJCagoR5T98jlgc1ESvEJVXw9FEQhExN/0GZYFWDPfxp9NdyszOW7bCc9hUPYaM98SMac0nBY+X9atswebpOvnmqq7MpGQnAPaflBLPtwsjl/mg+03e",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en"
+        ]
+    ],
+    "k3": 24,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3840,
+        2160
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Linux x86_64",
+    "k16": [
+        {
+            "name": "ixYsWLF",
+            "description": "Onz5cu37dOnzZsWLlSpUqVqVq1atWrV",
+            "mimeTypes": [
+                {
+                    "type": "",
+                    "suffixes": ""
+                }
+            ]
+        },
+        {
+            "name": "RoUKFiRo",
+            "description": "gQoUKFCBAgQo06du37du3bt2btWrVqVq",
+            "mimeTypes": [
+                {
+                    "type": "",
+                    "suffixes": ""
+                }
+            ]
+        },
+        {
+            "name": "PDF Renderer",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "doc Plugin",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "1e97cdbf0d9dba876a209e66c2af34ee"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Calibri",
+        "PMingLiU"
+    ],
+    "k21": 123.95847900972876,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 1
+}

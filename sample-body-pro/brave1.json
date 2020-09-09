@@ -1,0 +1,105 @@
+{
+    "rid": "NyaKSJvztxdwWFuVjRCj",
+    "cv": "2.7.5",
+    "c": "1IZEt20622",
+    "url": "https://fingerprintjs.com/demo",
+    "d": 38,
+    "i": 2,
+    "j": "KJjXkDHBAgeJ599Pvv6eqcAdJd0L/rY14+rOPTo8kEAhxs4Vy68SiUQtlFvKu+42liO6rTyKP9ngEkPGeoqCuapxy1hZTsoA/BVYQLod7bhdy4uCskOnC20GYnlRRO03b0KpLu5OIWDzqEqI2g==",
+    "cbd": 1,
+    "k2": [
+        [
+            "en-US"
+        ],
+        [
+            "en-US",
+            "en"
+        ]
+    ],
+    "k3": 24,
+    "k5": [
+        3840,
+        2160
+    ],
+    "k6": [
+        3840,
+        2160
+    ],
+    "k7": 12,
+    "k8": -60,
+    "k9": "Europe/London",
+    "k10": 1,
+    "k11": 1,
+    "k12": 1,
+    "k13": 1,
+    "k15": "Linux x86_64",
+    "k16": [
+        {
+            "name": "KFixYMmz",
+            "description": "y58.fvXr16du3bt27dOnTJECBAgw48eP",
+            "mimeTypes": [
+                {
+                    "type": "",
+                    "suffixes": ""
+                }
+            ]
+        },
+        {
+            "name": "Brave PDF ",
+            "description": "",
+            "mimeTypes": [
+                {
+                    "type": "application/pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "portable-document-format extension",
+            "description": "Portable Document Format",
+            "mimeTypes": [
+                {
+                    "type": "application/x-google-chrome-pdf",
+                    "suffixes": "pdf"
+                }
+            ]
+        },
+        {
+            "name": "TJkSpUK",
+            "description": "KFChQo069evXr16duXLFiRIECBgw4cu",
+            "mimeTypes": [
+                {
+                    "type": "",
+                    "suffixes": ""
+                }
+            ]
+        }
+    ],
+    "k17": {
+        "winding": true,
+        "data": "778eaac42e161164105fea7ba3389e64"
+    },
+    "k18": 0,
+    "k19": {
+        "maxTouchPoints": 0,
+        "touchEvent": false,
+        "touchStart": false
+    },
+    "k20": [
+        "Calibri",
+        "PMingLiU"
+    ],
+    "k21": 123.88558787393413,
+    "k22": 1,
+    "k23": "20030107",
+    "k24": 33,
+    "k25": 0,
+    "k26": 0,
+    "k27": "Google Inc.",
+    "k28": 1,
+    "k29": 0,
+    "k30": 0,
+    "k31": 0,
+    "k32": 1,
+    "k33": 1
+}
