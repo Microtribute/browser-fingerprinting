@@ -2,8 +2,7 @@
 
 ## General Notes
 - It does not seems to be a good idea to rely on the user agent as it is subject to frequent changes.
-- DuckDuckGo has a seemlingly awkwardly oddly reliable way to detect the browser. - *SUPER RELIABLE*
-> Reportedly, Duckduckgo partnered with Brave and Vivaldi. As a result, these browsers whitelist https://duckduckgo.com and expose their exact app name (Brave and Vivaldi) when the duckduckgo website is open. Looking at [the source code of the Brave browser](https://github.com/brave/brave-core), Netflix (netflix.com) is also whitelisted.
+- DuckDuckGo has a seemlingly awkwardly oddly reliable way to detect the browser. - *SUPER RELIABLE* -  Partnered with several browser makers - See special notes.
 
 ## User Agent Strings
 It is important to know that browsers spit out different user agent strings when sending out HTTP requests versus when using `navigator.userAgent`. Relying on `navigator.userAgent` must be used IF you have no other choice. (Maybe combining `navigator.appVersion` could be useful) As a rule of thumbs, the browser name must be detected on the server side - Compare the following user agent strings. For each browser the first string is obtained by using `navigator.userAgent` API, whereas the second string is obtaind on the server side. The last line is obtained on DuckDuckGo.
@@ -70,10 +69,73 @@ On normal web pages:
 - `Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile DuckDuckGo/5 Safari/537.36`
 - `Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile DuckDuckGo/5 Safari/537.36`
 
-## Special Notes for the Brave browser
+## Special Notes for Brave
 - Brave changes the fingerprints (audio & canvas), and the names of the plugins on every startup.
 - Brave is shipped with third-party cookies disabled by default, making it almost impossible to identify users using third-party cookies.
 - There is `navigator.brave` object we can use to detect the brave browser easily in pure JavaScript.
+- Brave has partnered with DuckDuckGo and Netfix, whitelisting their websites on exposing the correct user agent string. Look at the [source code](https://github.com/brave/brave-core/blob/master/common/shield_exceptions.cc).
+```cc
+/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+#include "brave/common/shield_exceptions.h"
+
+#include <algorithm>
+#include <vector>
+
+#include "extensions/common/url_pattern.h"
+#include "url/gurl.h"
+
+namespace brave {
+
+bool IsUAWhitelisted(const GURL& gurl) {
+  static std::vector<URLPattern> whitelist_patterns({
+    URLPattern(URLPattern::SCHEME_ALL, "https://*.duckduckgo.com/*"),
+    // For Widevine
+    URLPattern(URLPattern::SCHEME_ALL, "https://*.netflix.com/*")
+  });
+  return std::any_of(whitelist_patterns.begin(), whitelist_patterns.end(),
+      [&gurl](URLPattern pattern){
+        return pattern.MatchesURL(gurl);
+      });
+}
+
+}  // namespace brave
+```
+
+## Special Notes for Vivaldi
+The following domains are whitelisted by Vivaldi (Copied from the source code downloaded from the official website)
+```cc
+// Location: vivaldi-source/base/vivaldi_user_agent_white_list.inc
+
+// Copyright (c) 2019 Vivaldi Technologies AS. All rights reserved
+
+// List of domains that receive the user agen header with the Vivaldi/version
+// string.
+//
+// All strings must be in the low-case and all lines must end with a comma.
+// Empty lines and C++ comments can be used freely here. The order is not
+// important, but keep the list ordered alphabetically within a block.
+
+// Vivaldi hosts
+"vivaldi.com",
+"vivaldi.net",
+
+// This is so various test scripts will see Vivaldi in the user agent
+"tests.viv.int",
+
+// Partners with branding for Vivaldi
+"duckduckgo.com",
+"ecosia.com",
+"ecosia.org",
+"qwant.com",
+"startpage.com",
+
+// VB-64209: Videos on ted.com fail if we use the chrome user agent.
+"ted.com",
+```
 
 ## DuckDuckGo Answer API
 We can use the DuckDuckGo Answer API to identify the correct user agent string.
