@@ -78,6 +78,41 @@ On normal web pages:
 - Brave is shipped with third-party cookies disabled by default, making it almost impossible to identify users using third-party cookies.
 - There is `navigator.brave` object we can use to detect the brave browser easily in pure JavaScript.
 
+## DuckDuckGo Answer API
+We can use the DuckDuckGo Answer API to identify the correct user agent string.
+
+**Request URL**:`https://api.duckduckgo.com/?q=whats+my+user+agent&format=json`
+**Response Example:**
+```json
+{
+   "Infobox":"",
+   "Answer":"Your user agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.84 Safari/537.36 Vivaldi/3.3.2022.39",
+   "AbstractSource":"",
+   "AnswerType":"useragent",
+   "Heading":"",
+   "Image":"",
+   "Results":[
+      
+   ],
+   "DefinitionURL":"",
+   "RelatedTopics":[
+      
+   ],
+   "ImageIsLogo":"",
+   "meta":null,
+   "Abstract":"",
+   "Redirect":"",
+   "ImageHeight":"",
+   "Type":"E",
+   "AbstractText":"",
+   "Entity":"",
+   "DefinitionSource":"",
+   "ImageWidth":"",
+   "Definition":"",
+   "AbstractURL":""
+}
+```
+
 
 ### Links
 - [FingerprintJS Pro Demo](https://www.fingerprintjs.com/demo)
