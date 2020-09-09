@@ -74,7 +74,7 @@ On normal web pages:
 - `Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile DuckDuckGo/5 Safari/537.36`
 
 ### Special Notes for the Brave browser
-- Brave changes the fingerprints (audio & canvas), and the names of the plugins on every startup. [Fingerprinting Randomization](https://brave.com/whats-brave-done-for-my-privacy-lately-episode3/) and [Fingerprinting Protections](https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections)
+- Brave changes the fingerprints (audio & canvas), and the names of the plugins on every startup.
 - Brave is shipped with third-party cookies disabled by default, making it almost impossible to identify users using third-party cookies.
 - There is `navigator.brave` object we can use to detect the brave browser easily in pure JavaScript.
 
@@ -119,3 +119,6 @@ We can use the DuckDuckGo Answer API to identify the correct user agent string.
 - [FingerprintJS Pro Demo](https://www.fingerprintjs.com/demo)
 - [Audio Fingerprinting](https://audiofingerprint.openwpm.com)
 - [DuckDuckGo's What is my user agent?](https://duckduckgo.com/?q=user+agent&ia=answer)
+- [Tor vs Brave](https://tor.stackexchange.com/questions/21244/tor-vs-brave-which-is-technically-more-effective-to-hinder-user-tracking-fin)
+- [Fingerprinting Randomization in Brave](https://brave.com/whats-brave-done-for-my-privacy-lately-episode3/)
+- [Fingerprinting Protections in Brave](https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections)
