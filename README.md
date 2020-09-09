@@ -8,7 +8,11 @@
 ### Special Notes for the Brave browser
 - Brave changes the fingerprints (audio & canvas), and the names of the plugins on every startup. [Fingerprinting randomization](https://brave.com/whats-brave-done-for-my-privacy-lately-episode3/)
 - Brave is shipped with third-party cookies disabled by default, making it almost impossible to identify users using third-party cookies.
-- It is impossible to detect the brave browser just by looking at the user agent string.
+- Brave uses different user agent strings when sending out request vs when using `navigator.userAgent`
+  * `navigator.userAgent` - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36`
+  * `xhr` - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/85.0.4183.83 Safari/537.36`
+
+### User Agent Strings
   * Brave - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36`
   * Chrome - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36`
   * Vivaldi - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.84 Safari/537.36`
@@ -21,3 +25,4 @@
 ### Links
 - [FingerprintJS Pro Demo](https://www.fingerprintjs.com/demo)
 - [Audio Fingerprinting](https://audiofingerprint.openwpm.com)
+- [DuckDuckGo's What is my user agent?](https://duckduckgo.com/?q=user+agent&ia=answer)
