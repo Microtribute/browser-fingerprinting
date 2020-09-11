@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            async function queryAnswerApi(q) {
+                const url = new URL('https://api.duckduckgo.com');
+
+                url.searchParams.set('q', q);
+                url.searchParams.set('format', 'json');
+
+                return new Promise(function (resolve, reject) {
+                    const xhr = new XMLHttpRequest();
+
+                    xhr.onload = e => resolve(JSON.parse(xhr.responseText));
+                    xhr.onerror = e => {
+                        console.log(e);
+                    };
+                    
+                    xhr.withCredentials = false;
+
+                    xhr.open('GET', url);
+                    xhr.send();
+                });
+            }
+
+            async function getUserAgent() {
+                // const result = await queryAnswerApi('what is my user agent');
+                const result = await queryAnswerApi('what is my gender');
+
+                if (result && 'Answer' in result && result.Answer.toString().length > 0) {
+                    // The answer looks like 'Your user agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+                    // Remove the leading 'Your user agent:' string.
+                    return result.Answer.slice(16).trim();
+                }
+
+                return navigator.userAgent;
+            }
+
+            async function main() {
+                const ua = await getUserAgent();
+
+                console.log(ua);
+            }
+
+            main();
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

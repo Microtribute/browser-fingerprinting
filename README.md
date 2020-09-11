@@ -146,7 +146,7 @@ The following domains are whitelisted by Vivaldi. [Offical Vivaldi souce code do
 ## DuckDuckGo Answer API
 We can use the DuckDuckGo Answer API to identify the correct user agent string.
 
-**Request URL**:`https://api.duckduckgo.com/?q=whats+my+user+agent&format=json`
+**Request URL**:`https://api.duckduckgo.com/?q=what+is+my+user+agent%3F&format=json`
 
 **Response Example:**
 ```json
