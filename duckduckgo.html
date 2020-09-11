@@ -40,13 +40,13 @@
             async function main() {
                 const ua = await getUserAgent();
 
-                console.log(ua);
+                document.getElementById('ua').innerText = ua;
             }
 
             main();
         </script>
     </head>
     <body>
-
+        <h1 id="ua"></h1>
     </body>
 </html>
