@@ -24,8 +24,9 @@
             }
 
             async function getUserAgent() {
-                // const result = await queryAnswerApi('what is my user agent');
-                const result = await queryAnswerApi('what is my gender');
+                // Depending on what your query is,
+                // DuckDuckGo would block your request.
+                const result = await queryAnswerApi('what is my user agent?');
 
                 if (result && 'Answer' in result && result.Answer.toString().length > 0) {
                     // The answer looks like 'Your user agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
