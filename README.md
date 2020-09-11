@@ -191,3 +191,4 @@ Third-party cookies are way more reliabe if we do not count in privacy-concerned
 - [Tor vs Brave](https://tor.stackexchange.com/questions/21244/tor-vs-brave-which-is-technically-more-effective-to-hinder-user-tracking-fin)
 - [Fingerprinting Randomization in Brave](https://brave.com/whats-brave-done-for-my-privacy-lately-episode3/)
 - [Fingerprinting Protections in Brave](https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections)
+- [DuckDuckGo Instant Answer API](https://duckduckgo.com/api)
